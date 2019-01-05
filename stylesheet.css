@@ -100,7 +100,7 @@ a:hover{
     display: inline-block;
 }
 
-#title-text{
+#title-text a{
 	padding-left:15px;
 	/* padding-top:18px; */
 	/* float:left; */
