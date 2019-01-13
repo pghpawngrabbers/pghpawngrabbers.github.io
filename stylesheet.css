@@ -82,7 +82,6 @@ a:hover{
 	position:fixed;
 	top:0;
 	width:80%;
-    transition:1s;
     display: flex;
     justify-content: space-between;
 }
@@ -197,7 +196,7 @@ a:hover{
 
 .fixed{
 	position:fixed;
-	top:180px;
+	top:140px;
 }
 
 .column {
