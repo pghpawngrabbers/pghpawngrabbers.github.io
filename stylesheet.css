@@ -25,6 +25,9 @@ body{
 
 	line-height:1.6em;
 }
+th{
+	font-size: 13px;
+}
 
 @font-face {
     font-family: 'post_no_bills_colombobold';
