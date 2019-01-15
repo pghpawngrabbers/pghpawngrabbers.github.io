@@ -60,6 +60,15 @@ a:hover{
 	clear:both;
 }
 
+.score{
+    padding-top: 2%;
+    font-size: 25px;
+}
+
+.score table,th,gd {
+    border: 1px solid black;
+}
+
 .button{
 	background-color:grey;
 	padding:10px 15px;
