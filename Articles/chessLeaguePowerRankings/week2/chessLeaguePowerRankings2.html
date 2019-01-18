@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<!--Install drop down menu with Home, Bios, and About(Link to intro blog host)-->
+<html>
+<head>
+	<title>Home</title>
+	<!-- Abnormally large name so that there is no confusion with css from stylesheets. idk if it would be a problem? -->
+	<style>
+	.column_chessLeaguePowerRanking {
+  		float: left;
+  		padding:10px;
+  		height: "10px";
+	}
+
+/* Clear floats after the columns */
+	.row_chessLeaguePowerRanking:after {
+  		content: "";
+  		display: table;
+  		clear: both;
+	}
+	</style>
+</head>
+	<link rel="stylesheet" type="text/css" href="../../../stylesheet.css">
+	<script src="jquery-3.3.1.js"></script>
+	
+    
+<body>
+	<!-- top image -->
+	<div class="container">
+
+		<div class="header">
+			<div class="title-div">
+				<div id="top-logo">
+					<a href="#">
+						<img src="../../../Pawngrabbers%20Main.png" width="50" height="50">
+					</a>
+				</div>
+				<div id="title-text">Pittsburgh Pawngrabbers</div>
+			</div>
+
+
+			<div id="nav-bar">
+				<ul>
+					<li>
+                        <div class="dropdown">
+                            <button class="dropbtn"><a href="../../../index.html">Home</a></button>
+                                <div class="dropdown-content">
+                                    <a href="../../../bio.html">Bios</a>
+                                    <a href="../../../sponsors.html">Sponsors</a>
+                                    <a href="../../../streamer.html">Streamer</a>
+                                </div>
+                        </div>
+                    </li>
+					<li><a href="../../../stream2.html">Stream</a></li>
+					<li><a href="../../../blog.html">Blog</a></li>
+					<li>
+                        <div class="dropdown">
+                            <button class="dropbtn"><a href="https://shop.spreadshirt.com/pghpawngrabbers">Shop</a></button>
+                                <div class="dropdown-content">
+                                    <a href="https://www.indiegogo.com/projects/pittsburgh-pawngrabbers--3/x/19642593#/">Donate</a>
+                                </div>
+                        </div>
+                    </li>
+				</ul>
+			</div>
+			<!-- <div class="clr"></div> -->
+		</div>
+
+		<!-- ################### HEADER ENDS ##################-->
+        
+		<div class="cover-photo-div">
+			<a href="#">
+				<img class="cover-photo" src="../../../TwitchCoverPGH.jpg" alt="../../../Cover Photo">
+			</a>
+		</div>
+        
+        <hr>
+
+        <div class = "container-smaller-width">
+	    <div class="row">
+	  		<div class="leftcolumn">
+
+	    		<div class="card">
+	      			<h2 style = "text-align:center;"> PRO Chess League Power Rankings </h2>
+	      			<h5 style="text-align:center;">Week 2: Atlantic Division</h5>
+                    
+	      			<img style="display:block; margin-right:auto; margin-left:auto; width:50%" src="powerRankings2.jpeg" height="200px">
+
+                  	<p>
+                  	<br>
+                   	Welcome to week two of the PRO Chess League power rankings. This week was very exciting, and although the scores for this round may not reflect it, there were a lot of very interesting games. Despite the imbalance in the standings through two weeks, this is probably the most balanced Atlantic division since the start of the PRO Chess League. I feel like every team could be in contention for a playoff spot, and on any given week I think that any team could beat any other. To me, that’s awesome because it will create a very tense division and (hopefully) will keep fans excited about matches from week to week. Speaking of exciting, how about this beautiful combination from Eric Hansen to trap Eljanov's rook! This is the kind of play that makes me really love chess.
+					</p>
+
+					<!-- Twitter embedded link -->
+
+					<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">What a concept 🤯<br><br>Last week&#39;s GOTW winner, <a href="https://twitter.com/hansenchess?ref_src=twsrc%5Etfw">@hansenchess</a>, finds the incredible sequence of retreats 30...Ra8!, 31...Bf8!, and 32...Nd8! to trap Eljanov&#39;s rook!<br><br>Replay this stunning <a href="https://twitter.com/hashtag/prochess?src=hash&amp;ref_src=twsrc%5Etfw">#prochess</a> hilarity ➡ <a href="https://t.co/VxfUEjDDmw">https://t.co/VxfUEjDDmw</a> <a href="https://t.co/URGYVDZEyh">pic.twitter.com/URGYVDZEyh</a></p>&mdash; PROChessLeague (@PROChessLeague) <a href="https://twitter.com/PROChessLeague/status/1085325200932114432?ref_src=twsrc%5Etfw">January 15, 2019</a></blockquote>
+					<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+					<br>
+
+					<h2> PRO Chess League Overview </h2> 
+					<br>
+
+					This year, we will be doing a weekly power rankings list for teams in the Atlantic division. For those of you who don't know, the regular season of the PRO Chess League (PCL) is ten weeks long. Each week, teams will have to pick 4 players from their roster with an average standard rating (not blitz or rapid) of 2500 FIDE or less for each match. Every match consists of 16 games (aside from the Battle Royales) meaning every player plays 4 games, on rapid time control (15 minutes with a 2-second increment). At the end of the match, the winner of the match receives ten points for the win. Each will also earn as many points as points they earned in the match (i.e. If team A defeats team B 10.5-5.5, team A receives 20.5 points and team B receives 5.5 points). This means that every game matters, so even if a team has already lost, there is still reason to keep playing. If anything that I wrote was unclear, you can always see the <a style="all:unset; color:blue; text-decoration:underline; cursor:pointer" href = "https://www.prochessleague.com/detailed-rules.html"> PRO Chess League Official Rules </a> for further explanation. I'm looking forward to seeing the rest of the season, and hope you are too! <br> <br> 
+
+					In case you missed it, here are the scores for this week.
+					<img style="display:block; margin-right:auto; margin-left:auto; width:100%" src="score1.png" height="200px">
+
+					<br> 
+					Note: These power Rankings are not just a result of a team's standing in the division. They rely on other factors such as momentum, overall talent, schedule, etc. in addition to the team's performance. Just because one team defeats another does not guarantee that it will be ranked in front of the team that it beat.
+
+
+					<!-- Segment for Saint Louis Arch Bishops -->
+					<div class="row_chessLeaguePowerRanking">
+  						<div style="width:45%; box-sizing:border-box;" class="column_chessLeaguePowerRanking">
+    						<h2 style="margin-top:10px">1. <u>Saint Louis Arch Bishops</u></h2>
+  						</div>
+  						<div style="width:20%; box-sizing:border-box;" class="column_chessLeaguePowerRanking">
+   					    	<img src="../archBishops.png" height="60px">
+  						</div>
+  						<div style="width:35%; box-sizing:border-box;" class="column_chessLeaguePowerRanking">
+   					    	<h2 style="margin-top:10px"> (PR: 1) &nbsp Points: 41.5</h2>
+  						</div>
+					</div>
+					
+
+					Dominance. Complete and utter dominance. That's the only way I can describe the performance by the Arch Bishops this week. I came into this match expecting a close game between two of the powerhouses of this conference, but instead, I saw one team that we clearly in a tier of their own. Caruana and So combined for 7.5 points in this match, which is a winning combination no matter who you put at the third and fourth boards. Also worth noting is that their third board, Marandi, picked up 3 points. That was quite the all-around performance by Saint Louis, and now they get to face the Chessbrahs, who looks to be their biggest competition in the division this yea-wait I said that last week about the Windmills (and look what happened). Hopefully this week's game is closer than last week, otherwise, the Arch Bishop will completely run away with this division.
+
+					<!-- Segment for Montreal Chessbrahs -->
+					<div class="row_chessLeaguePowerRanking">
+  						<div style="width:45%; box-sizing:border-box;" class="column_chessLeaguePowerRanking">
+    						<h2 style="margin-top:10px">2. <u>Montreal Chessbrahs</u></h2>
+  						</div>
+  						<div style="width:20%; box-sizing:border-box;" class="column_chessLeaguePowerRanking">
+   					    	<img src="../montrealChessbrahs.png" height="60px">
+  						</div>
+  						<div style="width:35%; box-sizing:border-box;" class="column_chessLeaguePowerRanking">
+   					    	<h2 style="margin-top:10px">(PR: 3) &nbsp Points: 41.5</h2>
+  						</div>
+					</div>
+
+					This is the second consecutive week where, going into the final round of action, they had clinched a win. They even have as many points as the Arch Bishops, who you’ve probably heard enough praise about. This week, they had two of their players score a perfect 4. Two. Most teams haven't had one all year, much less two in one week. This Montreal team is absolutely rolling through the first two weeks. The formula: Three 2600-or-better rated players with a very weak fourth board. Seems to be working, and with their top-heavy strength, they could contend for a top spot all year.
+
+					<!-- Segment for Webster Windmills -->
+					<div class="row_chessLeaguePowerRanking">
+  						<div style="width:45%; box-sizing:border-box;" class="column_chessLeaguePowerRanking">
+    						<h2 style="margin-top:10px">3. <u>Webster Windmills</u></h2>
+  						</div>
+  						<div style="width:20%; box-sizing:border-box;" class="column_chessLeaguePowerRanking">
+   					    	<img src="../websterWindmills.png" height="60px">
+  						</div>
+  						<div style="width:35%; box-sizing:border-box;" class="column_chessLeaguePowerRanking">
+   					    	<h2 style="margin-top:10px">(PR: 2) &nbsp Points: 24.5</h2>
+  						</div>
+					</div>
+
+					This was by far the most disappointing matchup of the week from a fan's perspective. I expected to see an action-packed match, with the two superpowers of the division going punch for punch with each other until the very end-and instead, Webster looked unprepared and completely outmatched by an outstanding Saint Louis team. That being said, I decided not to knock them too far down in the rankings this week based on how much better Saint Louis looks than the rest of the division. With that being said, this kind of performance has to be forgotten right away and with a matchup with London coming up, they may be able to do so.
+
+					<!-- Segment for New York Marshalls -->
+					<div class="row_chessLeaguePowerRanking">
+  						<div style="width:45%; box-sizing:border-box;" class="column_chessLeaguePowerRanking">
+    						<h2 style="margin-top:10px">4. <u>New York Marshalls</u></h2>
+  						</div>
+  						<div style="width:20%; box-sizing:border-box;" class="column_chessLeaguePowerRanking">
+   					    	<img src="../newyorkMarshalls.png" height="60px">
+  						</div>
+  						<div style="width:35%; box-sizing:border-box;" class="column_chessLeaguePowerRanking">
+   					    	<h2 style="margin-top:10px">(PR: 4) &nbsp Points: 38</h2>
+  						</div>
+					</div>
+
+					I expect that I will get some criticism for putting the 2-0 Marshalls behind the 1-1 Windmills, but I'm going to put them here anyway. That isn't to say that this team isn't playing well or doesn't deserve to be 2-0 because they absolutely do. They took care of business the way a good team should, with quality production from their top board (Moranda with 3), followed by some good scores from the middle boards (2.5 from both Azarov and Djurabek) and a decent performance from their fourth board (Jacobson with 1). They have found a winning formula and we'll see if they can keep it up this week against a Miami team still searching for its first win.
+
+					<!-- Segment for Montclair Sopranos -->
+					<div class="row_chessLeaguePowerRanking">
+  						<div style="width:45%; box-sizing:border-box;" class="column_chessLeaguePowerRanking">
+    						<h2 style="margin-top:10px">5. <u>Montclair Sopranos</u></h2>
+  						</div>
+  						<div style="width:20%; box-sizing:border-box;" class="column_chessLeaguePowerRanking">
+   					    	<img src="../montclairSopranos.png" height="60px">
+  						</div>
+  						<div style="width:35%; box-sizing:border-box;" class="column_chessLeaguePowerRanking">
+   					    	<h2 style="margin-top:10px">(PR: 6) &nbsp Points: 25.5</h2>
+  						</div>
+					</div>
+
+					Montclair was the only team this week to notch its first win of the season this week, with an 8.5-7.5 win against the Lions. Don't let the score fool you though; this game was well in hand by the start of the fourth round. The team's top 2 scored 6.5 of the team's total points, a solid performance by both Sevian (3.5) and Lenderman (3). One thing for this team to improve on is closing out the game. They were up 8.5-5.5 with two games to play, and they dropped both of them. I know that the team has already won, but every game matters in the PRO Chess League, so no matter what you should try to play your best chess, whether you're in round 1 or round 4.
+
+					<!-- Segment for Pittsburgh Pawngrabbers -->
+					<div class="row_chessLeaguePowerRanking">
+  						<div style="width:45%; box-sizing:border-box;" class="column_chessLeaguePowerRanking">
+    						<h2 style="margin-top:10px">6. <u>Pittsburgh Pawngrabbers</u></h2>
+  						</div>
+  						<div style="width:20%; box-sizing:border-box;" class="column_chessLeaguePowerRanking">
+   					    	<img src="../pittsburghPawngrabbers.png" height="60px">
+  						</div>
+  						<div style="width:35%; box-sizing:border-box;" class="column_chessLeaguePowerRanking">
+   					    	<h2 style="margin-top:10px">(PR: 5) &nbsp Points: 12.5</h2>
+  						</div>
+					</div>
+
+					This loss hurts. This was their chance to really get back into the thick of the division, but now sitting at 0-2, the Pawngrabbers are on the outside looking in. Sergey Erenberg put up only 1 point from board 1, a performance that most likely cost them a win or at least a tie. I hear that he was suffering from an illness at the time of the match, so I won't hold it against him. Nonetheless, a board 1 should never finish with one point and expect his team to have a chance to win. On a more positive note, Awonder Liang put up 3 points, which helped the Pawngrabbers fight until the end. With the addition of GM Evgeny Postny, they have again strengthened their roster, which is a reason to still believe in the Pawngrabbers. They look like they can still make the playoffs, but it's now or never. If they don't step it up soon, this season could be lost quickly.
+
+					<!-- Segment for Miami Champions -->
+					<div class="row_chessLeaguePowerRanking">
+  						<div style="width:45%; box-sizing:border-box;" class="column_chessLeaguePowerRanking">
+    						<h2 style="margin-top:10px">7. <u>Miami Champions</u></h2>
+  						</div>
+  						<div style="width:20%; box-sizing:border-box;" class="column_chessLeaguePowerRanking">
+   					    	<img src="../miamiChampions.jpeg" height="60px">
+  						</div>
+  						<div style="width:35%; box-sizing:border-box;" class="column_chessLeaguePowerRanking">
+   					    	<h2 style="margin-top:10px">(PR: 7) &nbsp Points: 11.5</h2>
+  						</div>
+					</div>
+
+					Miami played a tough team this week, but they were hopelessly outmatched. I would have like to see them at least keep it close, but with a 9-3 deficit heading into the final round, a close match was nowhere to be found. The game where the match was really over is in the second round when Eric Hansen upset Pavel Eljanov to put the Chessbrahs up 6-2. At 0-2 and last in the league in points, Miami looks like they are in for a loooong season.
+
+					<!-- Segment for London Lions -->
+					<div class="row_chessLeaguePowerRanking">
+  						<div style="width:45%; box-sizing:border-box;" class="column_chessLeaguePowerRanking">
+    						<h2 style="margin-top:10px">8. <u>London Lions</u></h2>
+  						</div>
+  						<div style="width:20%; box-sizing:border-box;" class="column_chessLeaguePowerRanking">
+   					    	<img src="../londonLions.png" height="60px">
+  						</div>
+  						<div style="width:35%; box-sizing:border-box;" class="column_chessLeaguePowerRanking">
+   					    	<h2 style="margin-top:10px">(PR: 8) &nbsp Points: 13</h2>
+  						</div>
+					</div>
+
+					If nothing else, this team showed the ability to fight until the end. With the loss clinched at 8.5-5.5, the Lions notched 2 wins to boost their overall standing in the Atlantic Division. That doesn't save them from the bottom spot of these power rankings, unfortunately, due to their subpar play at the top. The fact that their top scorer was their fourth board, Marcus Harvey-not taking anything away from his performance, but you expect that one of the higher board would have at least matched his score-is not going to help. I think it might be time for a change of strategy for the Lions, who this round put in three players under 2500 FIDE rating. This is a shocking choice, and I think moving forward, this team will have much more success by putting its top players in more rather than trying to not have a weak fourth board. 
+	    		</div>
+	    	</div>
+
+
+
+	  		<div class="rightcolumn">
+
+	  			<div class="card">
+	      			<h3>Popular Posts</h3>
+	      			<div class="fakeimg">Image</div><br>
+	      			<div class="fakeimg">Image</div><br>
+	      			<div class="fakeimg">Image</div>
+	    		</div>
+
+	    		<div class="card">
+	      			<h2>Categories</h2>
+      				<ul class = "no-bullet">
+      					<li class="pawn">Opening</li><br>
+						<li class="pawn">Middlegame</li><br>
+						<li class="pawn">Endgame</li>
+					</ul>
+	    		</div>
+
+	    		<div class="card">
+	      			<h3>Archives</h3>
+	      			<ul class="no-bullet">
+  						<li>2018</li><br>
+  						<li>2017</li><br>
+  						<li>2016</li>
+					</ul>
+	    		</div>
+
+	  		</div>
+		</div>
+		</div>
+	</div>
+        
+        
+
+
+	<!-- Creating the Social Media links. Must be outside the container -->
+
+	<div class="fixed">
+		<div class=socialmedia>
+
+			<div class="button">
+				<a href="https://www.facebook.com/PGHpawngrabbers/">
+					<img src = "../../../facebooklogo.png" width="30" height="30">
+				</a>
+			</div>
+
+			<div class="button">
+				<a href="https://twitter.com/pghpawngrabbers?lang=en">
+					<img src = "../../../twitterlogo.png" width="30" height="30">
+				</a>
+			</div>
+
+			<div class="button">
+				<a href="https://www.twitch.tv/pghpawngrabbers">
+					<img src = "../../../twitchlogo.png" width="30" height="30">
+				</a>
+			</div>
+
+			<div class="button">
+				<a href="https://www.youtube.com/channel/UC0HxgtAm7xXKNN_zl5_hJLA">
+					<img src = "../../../youtubelogo.png" width="30" height="30">
+				</a>
+			</div>
+            
+            <div class="button">
+				<a href="https://www.instagram.com/pghpawngrabbers/">
+					<img src = "../../../insta.png" width="30" height="30">
+				</a>
+			</div>
+
+            <div class="button">
+				<a href="https://www.indiegogo.com/projects/pittsburgh-pawngrabbers--3/x/19642593#/">
+					<img src = "../../../indiegogo.jpg" alt="Indiegogo" width="30" height="30">
+				</a>
+			</div>
+
+
+		</div>
+	</div>
+</body>
+</html>
