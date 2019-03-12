@@ -80,6 +80,12 @@ a:hover{
 
 /*there has to be a better way to do this */
 
+.battle{
+    width:100%;
+    table-layout: fixed;
+    word-break: break-all;
+}
+
 .button img:hover{
 	/* background:black; */
 	color:#fff;
